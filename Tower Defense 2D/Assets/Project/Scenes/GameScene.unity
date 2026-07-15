@@ -616,9 +616,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c46a3e0a32ec65247be7901380dc2ca4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Spawner
+  waves:
+  - {fileID: 11400000, guid: f03338754c5ef904993a0b82305f1dae, type: 2}
+  - {fileID: 11400000, guid: 0ab9446bec8643740882ead6ff5f96b3, type: 2}
+  - {fileID: 11400000, guid: 26dd6f8692cc4a445a080609d4eaceb8, type: 2}
   spawnTimer: 0
   spawnInterval: 1
-  pool: {fileID: 1182628566}
+  enemy1Pool: {fileID: 1182628566}
+  enemy2Pool: {fileID: 755626092}
+  enemy3Pool: {fileID: 1827813324}
   enemyPrefab: {fileID: 673953338044674634, guid: 2f82f0681ed8a4e42819c39fef070fc4, type: 3}
 --- !u!4 &951719859
 Transform:

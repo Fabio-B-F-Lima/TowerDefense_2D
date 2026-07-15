@@ -13,16 +13,14 @@ public class ObjectPooler : MonoBehaviour
         _pool = new List<GameObject>();
         for (int i = 0; i < poolSize; i++)
         {
-
             CreateNewObject();
-
         }
     }
 
     private GameObject CreateNewObject()
     {
         GameObject obj = Instantiate(prefab, transform);
-        obj.SetActive(true);
+        obj.SetActive(false);
         _pool.Add(obj);
         return obj;
     }
